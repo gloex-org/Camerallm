@@ -1,0 +1,13 @@
+# Robots.txt for CameraLLM.com
+# Managed by EliJul Group
+
+User-agent: *
+Allow: /
+
+# Block potential private or system directories
+Disallow: /cgi-bin/
+Disallow: /private/
+
+# Host and Sitemap
+Host: https://camerallm.com
+Sitemap: https://camerallm.com/sitemap.xml
